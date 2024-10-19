@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Basic Meta Tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Create engaging & high-quality articles effortlessly using our Free AI Writer. Perfect for writers, bloggers, students and professionals needs alike">
+    <meta name="robots" content="index, follow">
+
+    <!-- Canonical Tag -->
+    <link rel="canonical" href="https://ai-writerapp.github.io">
+
+    <!-- Favicon -->
+    <link rel="icon" href="https://aiwriter.ifscswiftcodeapp.in/images/favicon.ico" type="image/x-icon"> 
+
+    <!-- Open Graph Meta Tags for Social Media Sharing -->
+    <meta property="og:title" content="Free AI Writer">
+    <meta property="og:description" content="Create engaging & high-quality articles effortlessly using our Free AI Writer. Perfect for writers, bloggers, students and professionals needs alike">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://ai-writerapp.github.io">
+    <meta property="og:image" content="https://aiwriter.ifscswiftcodeapp.in/images/logo.png"> 
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Free AI Writer">
+    <meta name="twitter:description" content="Create engaging & high-quality articles effortlessly using our Free AI Writer. Perfect for writers, bloggers, students and professionals needs alike">
+    <meta name="twitter:image" content="https://aiwriter.ifscswiftcodeapp.in/images/logo.png"> 
+
+    <!-- Title -->
+    <title>Free AI Writer</title>
+
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "name": "Free AI Writer",
+        "url": "https://ai-writerapp.github.io",
+        "description": "Create engaging & high-quality articles effortlessly using our Free AI Writer. Perfect for writers, bloggers, students and professionals needs alike",
+        "image": "https://aiwriter.ifscswiftcodeapp.in/images/logo.png" 
+    }
+    </script>
+
+	
+
+	<!-- Google tag (gtag.js) -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-4HNKBCC0LZ"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+
+	  gtag('config', 'G-4HNKBCC0LZ');
+	</script>
+
+
+
+
+    <!-- Styles -->
+    <style>
+        /* Make the iframe take up the entire viewport and remove borders */
+        #hiddenFrame {
+            width: 100vw;  /* Full viewport width */
+            height: 100vh; /* Full viewport height */
+            border: none;  /* Removes any border */
+            overflow: hidden; /* Hides scrollbar if any */
+        }
+
+        /* Ensuring the iframe remains fully displayed */
+        html, body {
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+        }
+
+        /* Optional: Apply a background color to make it seamless */
+        body {
+            background-color: #ffffff; /* Match the iframe content background */
+        }
+    </style>
+</head>
+<body>
+    <!-- Main Content -->
+    <main>
+        <!-- Embed the iframe with your target URL -->
+        <iframe 
+            id="hiddenFrame" 
+            src="https://aiwriter.ifscswiftcodeapp.in/ai-text-generator" 
+            title="Free AI Writer" 
+            aria-label="Free AI Writer">
+        </iframe>
+    </main>
+
+    <!-- JavaScript -->
+    <script>
+        // Adjust iframe dimensions on load and window resize
+        window.addEventListener("DOMContentLoaded", () => {
+            const iframe = document.getElementById("hiddenFrame");
+
+            function resizeIframe() {
+                iframe.style.width = window.innerWidth + "px";
+                iframe.style.height = window.innerHeight + "px";
+            }
+
+            // Initial adjustment
+            resizeIframe();
+
+            // Adjust on window resize
+            window.addEventListener("resize", resizeIframe);
+        });
+    </script>
+</body>
+</html>
